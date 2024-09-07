@@ -94,7 +94,7 @@ p {
 		margin-bottom:2.5%;
 		margin-top: 2.5%;
 		height: 200px;
-		overflow: auto;
+		overflow-y: hidden;
 
 	}
 
@@ -107,7 +107,12 @@ p {
 		margin-left: 2.5%;
 		margin-right: 2.5%;
 		height: 100px;
+		overflow-y: hidden;
+	}
+
+	.chicken:hover, .beef:hover, .sushi:hover {
 		overflow: auto;
+		cursor: n-resize;
 	}
 	.chicken h2{
 		text-align: center;
@@ -167,7 +172,12 @@ p {
 		margin-bottom:5%;
 		margin-top: 5%;
 		height: 150px;
+		overflow-y: hidden;
+	}
+
+	.chicken:hover, .beef:hover, .sushi:hover {
 		overflow: auto;
+		cursor: n-resize;
 	}
 
 	.chicken h2{
@@ -203,6 +213,7 @@ p {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	
 }
 
 
